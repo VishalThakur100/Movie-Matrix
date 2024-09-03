@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { LOGO } from "../utils/constants";
+import  LOGO2  from "../logo-no-background.png";
 import { USER_AVATAR } from "../utils/constants";
 import { auth } from "../utils/Firebase";
 import { onAuthStateChanged, signOut } from "firebase/auth";
@@ -67,7 +68,7 @@ const Header = () => {
 
   return (
     <div className="absolute bg-transparent w-screen px-8 py-2 bg-gradient-to-b from-black z-10 flex flex-col md:flex-row justify-between">
-      <img className="w-44 mx-auto md:mx-0 " src={LOGO} alt="logo" />
+      <img className="w-44 mx-auto md:mx-0 " src={LOGO2} alt="logo" />
       {user && (
         <div className="flex p-2 justify-between">
           {showGptSearch && (
