@@ -1,6 +1,7 @@
 # Deployed Firebase Url
-https://movie-matrix-80eda.web.app/
-
+	```sh
+	  https://movie-matrix-80eda.web.app/
+	```
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -8,6 +9,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+
+## Installation
+1. Clone the repository:
+	```sh
+	git clone https://github.com/VishalThakur100/Movie-Matrix
+	```
+2. Navigate to the project directory:
+	```sh
+	cd 
+	```
+3. Install dependencies:
+	```sh
+	npm install
+	```
 
 ### `npm start`
 
