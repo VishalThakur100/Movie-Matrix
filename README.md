@@ -1,6 +1,6 @@
- Deployed Firebase Url :
-	```sh
-	  https://movie-matrix-80eda.web.app/
+ Deployed Firebase Url:
+	``` sh
+	    https://movie-matrix-80eda.web.app/
 	```
 # Getting Started with Create React App
 
